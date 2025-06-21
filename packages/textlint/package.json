@@ -73,14 +73,14 @@
     "read-pkg-up": "^3.0.0",
     "structured-source": "^4.0.0",
     "unique-concat": "^0.2.2",
-    "zod": "^3.25.64"
+    "zod": "^3.25.67"
   },
   "devDependencies": {
     "@textlint/legacy-textlint-core": "workspace:*",
     "@types/clone": "^2.1.4",
     "@types/debug": "^4.1.12",
     "@types/glob": "^8.1.0",
-    "@types/node": "^18.19.111",
+    "@types/node": "^18.19.112",
     "@types/read-pkg-up": "^3.0.1",
     "@types/shelljs": "^0.8.16",
     "clone": "^2.1.2",
