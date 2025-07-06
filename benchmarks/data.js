@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1751682206361,
+  "lastUpdate": 1751767574509,
   "repoUrl": "https://github.com/harryzcy/textlint",
   "entries": {
     "Benchmark": [
@@ -1302,6 +1302,48 @@ window.BENCHMARK_DATA = {
             "value": 0.59539464982,
             "unit": "seconds",
             "range": "± 0.010498722000000016"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "azu@users.noreply.github.com",
+            "name": "azu",
+            "username": "azu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "31fff375f9a6d2f0770f1efe528b9bb40782bf54",
+          "message": "feat(mcp): add debug logging support for MCP server (#1636)\n\n## Summary\n\n- Add debug logging support for MCP server to help with troubleshooting\nand development\n- Enable conditional debug output when `--debug` flag is used with\n`--mcp`\n- Provide visibility into server initialization and connection status\n\n## Changes\n\n- **Add debug option to `McpServerOptions`**: New optional `debug`\nboolean field\n- **Pass debug option from CLI**: Forward `--debug` flag from CLI to MCP\nserver options\n- **Add conditional debug logging**: Log server setup, version,\ninitialization, and connection events\n- **Use existing debug infrastructure**: Leverages textlint's existing\ndebug library with `textlint:mcp` namespace\n\n## Usage\n\n```bash\n# Enable MCP server debug logging\ntextlint --mcp --debug\n\n# Or with environment variable for more control\nDEBUG=textlint:mcp textlint --mcp --debug\n```\n\n## Debug Output Example\n\n```\ntextlint:mcp Setting up MCP server with options: {\"configFilePath\":\"/path/.textlintrc.json\",\"debug\":true,\"cwd\":\"/current/path\"}\ntextlint:mcp Server version: 14.0.4\ntextlint:mcp MCP server initialized successfully\ntextlint:mcp Connecting MCP server to stdio transport...\ntextlint:mcp MCP server connected and ready to accept requests\n```\n\n## Benefits\n\n- **Troubleshooting**: Easier to diagnose MCP server startup issues\n- **Development**: Better visibility during MCP integration development\n- **Consistency**: Uses same debug patterns as rest of textlint codebase\n- **Non-intrusive**: Only outputs when explicitly requested with\n`--debug`\n\n🤖 Generated with [Claude Code](https://claude.ai/code)\n\n---------\n\nCo-authored-by: Claude <noreply@anthropic.com>",
+          "timestamp": "2025-07-06T10:33:14+09:00",
+          "tree_id": "4a963d5caf039ad42b4517f1837c8ced105950e6",
+          "url": "https://github.com/harryzcy/textlint/commit/31fff375f9a6d2f0770f1efe528b9bb40782bf54"
+        },
+        "date": 1751767573225,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "npm run bench:self",
+            "value": 0.22658547028000003,
+            "unit": "seconds",
+            "range": "± 0.11108735899999997"
+          },
+          {
+            "name": "npm run bench:technical-writing",
+            "value": 1.7627062426799998,
+            "unit": "seconds",
+            "range": "± 0.0253309129999999"
+          },
+          {
+            "name": "npm run bench:jtf-style",
+            "value": 0.6141291024800001,
+            "unit": "seconds",
+            "range": "± 0.014876452999999956"
           }
         ]
       }
