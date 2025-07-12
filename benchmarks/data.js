@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752199654333,
+  "lastUpdate": 1752285420644,
   "repoUrl": "https://github.com/harryzcy/textlint",
   "entries": {
     "Benchmark": [
@@ -2394,6 +2394,48 @@ window.BENCHMARK_DATA = {
             "value": 0.5974999541800001,
             "unit": "seconds",
             "range": "± 0.018664879000000023"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "azu@users.noreply.github.com",
+            "name": "azu",
+            "username": "azu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d920ac819f4d8155ada8b0d6ae5b1e26f1d89649",
+          "message": "docs: add Claude Code setup instructions to MCP documentation (#1652)\n\n## Summary\n- Add Claude Code to the list of supported AI-powered code editors in\nMCP documentation\n- Document the `claude mcp add` CLI command for easy setup\n- Include manual configuration method via `.claude/mcp.json` for\nadvanced users\n\n## Changes\n- Added Claude Code to prerequisites section alongside other supported\neditors\n- Created new \"Claude Code\" section with:\n- CLI-based setup using `claude mcp add` command (recommended approach)\n  - Manual configuration via `.claude/mcp.json` file\n  - Examples for both basic setup and custom CLI flags\n- Added Claude Code MCP documentation link to Additional Resources\nsection\n\n## Notes\n- Removed global configuration option as per request, focusing only on\nproject-specific setup\n- The CLI approach is presented first as it's the simplest method for\nusers\n- Manual configuration is still documented for users who prefer or need\nthat approach\n\n🤖 Generated with [Claude Code](https://claude.ai/code)\n\nCo-authored-by: Claude <noreply@anthropic.com>",
+          "timestamp": "2025-07-12T09:49:41+09:00",
+          "tree_id": "6419d111f456c47cbf4cc5e5497a7eadbeac7538",
+          "url": "https://github.com/harryzcy/textlint/commit/d920ac819f4d8155ada8b0d6ae5b1e26f1d89649"
+        },
+        "date": 1752285420096,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "npm run bench:self",
+            "value": 0.35244916598,
+            "unit": "seconds",
+            "range": "± 0.699606988"
+          },
+          {
+            "name": "npm run bench:technical-writing",
+            "value": 1.8137359923800003,
+            "unit": "seconds",
+            "range": "± 0.03192157800000017"
+          },
+          {
+            "name": "npm run bench:jtf-style",
+            "value": 0.61879756598,
+            "unit": "seconds",
+            "range": "± 0.01768212800000002"
           }
         ]
       }
