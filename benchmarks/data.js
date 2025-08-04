@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754348355690,
+  "lastUpdate": 1754348369038,
   "repoUrl": "https://github.com/harryzcy/textlint",
   "entries": {
     "Benchmark": [
@@ -3822,6 +3822,48 @@ window.BENCHMARK_DATA = {
             "value": 0.61157624822,
             "unit": "seconds",
             "range": "± 0.016728231000000093"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a87fd40768017b62e187280f94d49f1387337871",
+          "message": "fix(deps): update dependency file-entry-cache to ^10.1.3",
+          "timestamp": "2025-08-04T22:57:38Z",
+          "tree_id": "9b55bc35ffc25eb7a37da8eee3f8fe7d22ae9be5",
+          "url": "https://github.com/harryzcy/textlint/commit/a87fd40768017b62e187280f94d49f1387337871"
+        },
+        "date": 1754348367845,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "npm run bench:self",
+            "value": 0.24651535210000003,
+            "unit": "seconds",
+            "range": "± 0.20937748100000003"
+          },
+          {
+            "name": "npm run bench:technical-writing",
+            "value": 1.7232652709,
+            "unit": "seconds",
+            "range": "± 0.03455693899999979"
+          },
+          {
+            "name": "npm run bench:jtf-style",
+            "value": 0.5989467226999999,
+            "unit": "seconds",
+            "range": "± 0.00914443499999995"
           }
         ]
       }
