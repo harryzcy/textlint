@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754393398866,
+  "lastUpdate": 1754393734084,
   "repoUrl": "https://github.com/harryzcy/textlint",
   "entries": {
     "Benchmark": [
@@ -4074,6 +4074,48 @@ window.BENCHMARK_DATA = {
             "value": 0.5913854673200001,
             "unit": "seconds",
             "range": "± 0.01199355000000002"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4e905ee8f6571e477418d9a5158363adb45750bd",
+          "message": "fix(deps): update react monorepo to ^19.1.1",
+          "timestamp": "2025-08-05T11:33:42Z",
+          "tree_id": "c8eda4bf0dfc05828e5b0eb756326395dad11d03",
+          "url": "https://github.com/harryzcy/textlint/commit/4e905ee8f6571e477418d9a5158363adb45750bd"
+        },
+        "date": 1754393732655,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "npm run bench:self",
+            "value": 0.25486737304000007,
+            "unit": "seconds",
+            "range": "± 0.248186566"
+          },
+          {
+            "name": "npm run bench:technical-writing",
+            "value": 1.7604276480399998,
+            "unit": "seconds",
+            "range": "± 0.023882608000000083"
+          },
+          {
+            "name": "npm run bench:jtf-style",
+            "value": 0.60267110144,
+            "unit": "seconds",
+            "range": "± 0.006080005999999916"
           }
         ]
       }
