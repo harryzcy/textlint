@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754441304800,
+  "lastUpdate": 1754441332407,
   "repoUrl": "https://github.com/harryzcy/textlint",
   "entries": {
     "Benchmark": [
@@ -4662,6 +4662,48 @@ window.BENCHMARK_DATA = {
             "value": 0.61051267964,
             "unit": "seconds",
             "range": "± 0.01923931999999995"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "92f13ae5f6b3dae25816cdbf39796e2b226f4619",
+          "message": "chore(deps): update github/codeql-action action to v3.29.5",
+          "timestamp": "2025-08-06T00:47:06Z",
+          "tree_id": "6aafb68309f13a5ce96c32b5569265dae7698d74",
+          "url": "https://github.com/harryzcy/textlint/commit/92f13ae5f6b3dae25816cdbf39796e2b226f4619"
+        },
+        "date": 1754441331359,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "npm run bench:self",
+            "value": 0.21131326304,
+            "unit": "seconds",
+            "range": "± 0.02316563199999999"
+          },
+          {
+            "name": "npm run bench:technical-writing",
+            "value": 1.74575351504,
+            "unit": "seconds",
+            "range": "± 0.01744580799999995"
+          },
+          {
+            "name": "npm run bench:jtf-style",
+            "value": 0.5997673760400001,
+            "unit": "seconds",
+            "range": "± 0.017369099999999915"
           }
         ]
       }
