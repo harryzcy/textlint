@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1755801459739,
+  "lastUpdate": 1755801522299,
   "repoUrl": "https://github.com/harryzcy/textlint",
   "entries": {
     "Benchmark": [
@@ -5754,6 +5754,48 @@ window.BENCHMARK_DATA = {
             "value": 0.6166440118600001,
             "unit": "seconds",
             "range": "± 0.012675876000000086"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9c20447b12485befce45f5eb5e5899c4f52959a2",
+          "message": "fix(deps): update dependency @babel/register to ^7.28.3",
+          "timestamp": "2025-08-21T18:36:45Z",
+          "tree_id": "48c721d42a28fcdccaee6e687e2b713e6cd2ac5a",
+          "url": "https://github.com/harryzcy/textlint/commit/9c20447b12485befce45f5eb5e5899c4f52959a2"
+        },
+        "date": 1755801520475,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "npm run bench:self",
+            "value": 0.28597773466,
+            "unit": "seconds",
+            "range": "± 0.415859899"
+          },
+          {
+            "name": "npm run bench:technical-writing",
+            "value": 1.74661937046,
+            "unit": "seconds",
+            "range": "± 0.08222908400000017"
+          },
+          {
+            "name": "npm run bench:jtf-style",
+            "value": 0.63132059326,
+            "unit": "seconds",
+            "range": "± 0.02038810499999999"
           }
         ]
       }
