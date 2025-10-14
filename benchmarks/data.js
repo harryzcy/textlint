@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760361492759,
+  "lastUpdate": 1760429080731,
   "repoUrl": "https://github.com/harryzcy/textlint",
   "entries": {
     "Benchmark": [
@@ -9114,6 +9114,48 @@ window.BENCHMARK_DATA = {
             "value": 0.60979473324,
             "unit": "seconds",
             "range": "± 0.00857207900000001"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "066359ae757dbf758b3f7491a1445f2d184dd2b6",
+          "message": "chore(deps): update dependency @types/react to ^18.3.26",
+          "timestamp": "2025-10-14T08:02:46Z",
+          "tree_id": "0b709dfd04c96a36d5cf03df9fbbca365367b98c",
+          "url": "https://github.com/harryzcy/textlint/commit/066359ae757dbf758b3f7491a1445f2d184dd2b6"
+        },
+        "date": 1760429079972,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "npm run bench:self",
+            "value": 0.28604645496000003,
+            "unit": "seconds",
+            "range": "± 0.39651226000000006"
+          },
+          {
+            "name": "npm run bench:technical-writing",
+            "value": 1.77031994336,
+            "unit": "seconds",
+            "range": "± 0.09526508799999989"
+          },
+          {
+            "name": "npm run bench:jtf-style",
+            "value": 0.60967522756,
+            "unit": "seconds",
+            "range": "± 0.027064397999999934"
           }
         ]
       }
