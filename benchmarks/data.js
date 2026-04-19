@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776380298311,
+  "lastUpdate": 1776595643653,
   "repoUrl": "https://github.com/harryzcy/textlint",
   "entries": {
     "Benchmark": [
@@ -22554,6 +22554,48 @@ window.BENCHMARK_DATA = {
             "value": 0.6072955591200001,
             "unit": "seconds",
             "range": "± 0.019804820000000056"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6cf0a38e586cfb38a6bf473d1746b0034c35011c",
+          "message": "chore(deps): update minor updates",
+          "timestamp": "2026-04-19T10:45:34Z",
+          "tree_id": "8e34e389ad9bdf572647dab8b3b63540c601137a",
+          "url": "https://github.com/harryzcy/textlint/commit/6cf0a38e586cfb38a6bf473d1746b0034c35011c"
+        },
+        "date": 1776595641925,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "npm run bench:self",
+            "value": 0.25632197274,
+            "range": "± 0.236610802",
+            "unit": "seconds"
+          },
+          {
+            "name": "npm run bench:technical-writing",
+            "value": 1.7807533327400002,
+            "range": "± 0.09245698300000016",
+            "unit": "seconds"
+          },
+          {
+            "name": "npm run bench:jtf-style",
+            "value": 0.60681135694,
+            "range": "± 0.00952420399999998",
+            "unit": "seconds"
           }
         ]
       }
