@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784587871023,
+  "lastUpdate": 1784587920322,
   "repoUrl": "https://github.com/harryzcy/textlint",
   "entries": {
     "Benchmark": [
@@ -28770,6 +28770,48 @@ window.BENCHMARK_DATA = {
             "value": 0.59361856942,
             "unit": "seconds",
             "range": "± 0.010811607000000056"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "da6488b82cfe7ab4cd78d84db84e836e61699a90",
+          "message": "chore(deps): update dependency lodash to v4.18.1 [security]",
+          "timestamp": "2026-07-20T22:49:56Z",
+          "tree_id": "5336247ef121de9d283e675b254f92d413975d55",
+          "url": "https://github.com/harryzcy/textlint/commit/da6488b82cfe7ab4cd78d84db84e836e61699a90"
+        },
+        "date": 1784587918842,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "npm run bench:self",
+            "value": 0.22347425110000002,
+            "unit": "seconds",
+            "range": "± 0.02404114900000001"
+          },
+          {
+            "name": "npm run bench:technical-writing",
+            "value": 1.7306753716999999,
+            "unit": "seconds",
+            "range": "± 0.0352451760000001"
+          },
+          {
+            "name": "npm run bench:jtf-style",
+            "value": 0.6091287939000001,
+            "unit": "seconds",
+            "range": "± 0.010169850000000036"
           }
         ]
       }
