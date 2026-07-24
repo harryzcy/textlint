@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784848187837,
+  "lastUpdate": 1784923564463,
   "repoUrl": "https://github.com/harryzcy/textlint",
   "entries": {
     "Benchmark": [
@@ -29148,6 +29148,48 @@ window.BENCHMARK_DATA = {
             "value": 0.61954440864,
             "range": "± 0.018503533000000072",
             "unit": "seconds"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "22dbaa53776a4611ec4c2efaa930ac847d0cb37a",
+          "message": "chore(deps): update dependency diff to v5.2.2 [security]",
+          "timestamp": "2026-07-24T20:04:14Z",
+          "tree_id": "f4bd485f795ff0d4b3f2fad483be0fd63ad22180",
+          "url": "https://github.com/harryzcy/textlint/commit/22dbaa53776a4611ec4c2efaa930ac847d0cb37a"
+        },
+        "date": 1784923563203,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "npm run bench:self",
+            "value": 0.28285932540000003,
+            "unit": "seconds",
+            "range": "± 0.36237066399999995"
+          },
+          {
+            "name": "npm run bench:technical-writing",
+            "value": 1.7557313082000001,
+            "unit": "seconds",
+            "range": "± 0.04297221899999992"
+          },
+          {
+            "name": "npm run bench:jtf-style",
+            "value": 0.6063983206000001,
+            "unit": "seconds",
+            "range": "± 0.02477067799999999"
           }
         ]
       }
