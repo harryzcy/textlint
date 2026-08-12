@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786493551571,
+  "lastUpdate": 1786493582290,
   "repoUrl": "https://github.com/harryzcy/textlint",
   "entries": {
     "Benchmark": [
@@ -30408,6 +30408,48 @@ window.BENCHMARK_DATA = {
             "value": 0.5664375573399999,
             "unit": "seconds",
             "range": "± 0.016975968000000008"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "245ce6bf5ec9b054b98608368328534750b81037",
+          "message": "chore(deps): update dependency ajv to v8.18.0 [security]",
+          "timestamp": "2026-08-12T00:11:11Z",
+          "tree_id": "5820c47d9c345967bafdec85762ec1c19fab6182",
+          "url": "https://github.com/harryzcy/textlint/commit/245ce6bf5ec9b054b98608368328534750b81037"
+        },
+        "date": 1786493580242,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "npm run bench:self",
+            "value": 0.24979600961999998,
+            "unit": "seconds",
+            "range": "± 0.197943657"
+          },
+          {
+            "name": "npm run bench:technical-writing",
+            "value": 1.81741731902,
+            "unit": "seconds",
+            "range": "± 0.1012310649999999"
+          },
+          {
+            "name": "npm run bench:jtf-style",
+            "value": 0.6116766110199999,
+            "unit": "seconds",
+            "range": "± 0.01960526500000004"
           }
         ]
       }
