@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787794979144,
+  "lastUpdate": 1787795380067,
   "repoUrl": "https://github.com/harryzcy/textlint",
   "entries": {
     "Benchmark": [
@@ -31794,6 +31794,48 @@ window.BENCHMARK_DATA = {
             "value": 0.47935576506000005,
             "unit": "seconds",
             "range": "± 0.023021696999999952"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4cf92764c610b444d6050165c3178a85c566f98f",
+          "message": "chore(deps): update dependency vitest to v3.2.6 [security]",
+          "timestamp": "2026-08-27T01:39:01Z",
+          "tree_id": "9c1c53c25f35cf51c9e823bbc3b4acac87a39a51",
+          "url": "https://github.com/harryzcy/textlint/commit/4cf92764c610b444d6050165c3178a85c566f98f"
+        },
+        "date": 1787795377647,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "npm run bench:self",
+            "value": 0.22067084002,
+            "unit": "seconds",
+            "range": "± 0.031846928"
+          },
+          {
+            "name": "npm run bench:technical-writing",
+            "value": 1.75068546442,
+            "unit": "seconds",
+            "range": "± 0.03768832499999997"
+          },
+          {
+            "name": "npm run bench:jtf-style",
+            "value": 0.60375601102,
+            "unit": "seconds",
+            "range": "± 0.01879656299999999"
           }
         ]
       }
