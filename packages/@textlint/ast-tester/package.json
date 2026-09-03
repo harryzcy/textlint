@@ -41,11 +41,11 @@
   },
   "dependencies": {
     "@textlint/ast-node-types": "workspace:*",
-    "debug": "^4.4.1"
+    "debug": "^4.4.3"
   },
   "devDependencies": {
-    "@types/debug": "^4.1.12",
-    "@types/node": "^18.19.121",
+    "@types/debug": "^4.1.13",
+    "@types/node": "^18.19.130",
     "rimraf": "^6.0.1",
     "typescript": "~5.8.3",
     "vitest": "^3.2.4"
