@@ -39,7 +39,7 @@
     "@textlint/resolver": "workspace:*",
     "@textlint/types": "workspace:*",
     "chalk": "^4.1.2",
-    "debug": "^4.4.1",
+    "debug": "^4.4.3",
     "js-yaml": "^3.14.1",
     "lodash": "^4.17.21",
     "pluralize": "^2.0.0",
@@ -49,10 +49,10 @@
     "text-table": "^0.2.0"
   },
   "devDependencies": {
-    "@types/debug": "^4.1.12",
+    "@types/debug": "^4.1.13",
     "@types/js-yaml": "^3.12.10",
-    "@types/lodash": "^4.17.20",
-    "@types/node": "^18.19.121",
+    "@types/lodash": "^4.17.25",
+    "@types/node": "^18.19.130",
     "chai": "^4.5.0",
     "rimraf": "^6.0.1",
     "typescript": "~5.8.3",

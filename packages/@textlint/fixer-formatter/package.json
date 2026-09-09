@@ -43,16 +43,16 @@
     "@textlint/resolver": "workspace:*",
     "@textlint/types": "workspace:*",
     "chalk": "^4.1.2",
-    "debug": "^4.4.1",
+    "debug": "^4.4.3",
     "diff": "^5.2.0",
     "string-width": "^4.2.3",
     "strip-ansi": "^6.0.1",
     "text-table": "^0.2.0"
   },
   "devDependencies": {
-    "@types/debug": "^4.1.12",
+    "@types/debug": "^4.1.13",
     "@types/diff": "^4.0.2",
-    "@types/node": "^18.19.121",
+    "@types/node": "^18.19.130",
     "rimraf": "^6.0.1",
     "typescript": "~5.8.3",
     "vitest": "^3.2.4"
