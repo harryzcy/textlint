@@ -49,13 +49,13 @@
     "ajv": "^8.17.1",
     "eslint": "^9.0.0",
     "eslint-config-prettier": "^10.1.8",
-    "globals": "^16.3.0",
+    "globals": "^16.5.0",
     "lerna": "^8.2.3",
-    "lint-staged": "^16.1.2",
+    "lint-staged": "^16.4.0",
     "npm-run-all2": "^8.0.4",
     "prettier": "^2.7.1",
     "typescript": "~5.8.3",
     "vitest": "^3.2.4"
   },
-  "packageManager": "pnpm@10.14.0+sha512.ad27a79641b49c3e481a16a805baa71817a04bbe06a38d17e60e2eaee83f6a146c6a688125f5792e48dd5ba30e7da52a5cda4c3992b9ccf333f9ce223af84748"
+  "packageManager": "pnpm@10.34.5"
 }
